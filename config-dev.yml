@@ -1,12 +1,12 @@
 # 调用库存服务URL
 serviceurl:
-  stockservice: http://stock-service/stock111
+  stockservice: http://stock-service/stock333
   
 spring:
   #mysql数据源配置
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://106.75.96.225:4040/smartdb_audit_ai?characterEncoding=utf-8
+    url: jdbc:mysql://106.75.96.225:4040/smartdb_ai_test_1014?characterEncoding=utf-8
     username: smartuser
     password: Aa123456
     type: com.alibaba.druid.pool.DruidDataSource
